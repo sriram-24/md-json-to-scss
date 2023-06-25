@@ -1,7 +1,7 @@
 import { existsSync, lstatSync, mkdirSync, readdirSync, rmdirSync, unlinkSync, writeFileSync } from "fs"
 import path from "path";
 
-function rimraf(dir_path) {
+function rimraf(dir_path : string) {
     if (existsSync(dir_path)) {
         readdirSync(dir_path).forEach(function(entry) {
             var entry_path = path.join(dir_path, entry);
@@ -15,10 +15,8 @@ function rimraf(dir_path) {
     }
 }
 
-export const writeToFile = async(themeFolderName,themeFileName,contents) => {
-    if(existsSync(themeFolderName)){
-        rimraf(themeFolderName)
-    }
+export const writeToFile = async(themeFolderName : string,themeFileName : string,contents : string) => {
+    
     if(!existsSync(themeFolderName)){
         mkdirSync(themeFolderName)
     } 
