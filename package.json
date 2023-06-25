@@ -1,0 +1,30 @@
+{
+  "name": "md-json-to-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriram-24/md-json-to-scss.git"
+  },
+  "keywords": [
+    "material-design"
+  ],
+  "author": "sriram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sriram-24/md-json-to-scss/issues"
+  },
+  "homepage": "https://github.com/sriram-24/md-json-to-scss#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "typescript": "^5.1.3"
+  }
+}
