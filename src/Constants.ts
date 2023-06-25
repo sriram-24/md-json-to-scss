@@ -1,0 +1,6 @@
+export const themeFolderName = './theme'
+export const themeFileName = 'theme.scss'
+export const tokenFileName = 'tokens.scss'
+export const typhographyFileName = 'typhography.scss'
+export const lightThemeFileName = 'theme.light.scss'
+export const themeMixinsFileName = '_theme_mixins.scss'

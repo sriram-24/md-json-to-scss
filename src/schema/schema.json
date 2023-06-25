@@ -1,0 +1,1773 @@
+{
+  "required": [
+      "seed",
+      "description",
+      "coreColors",
+      "schemes",
+      "palettes",
+      "styles",
+      "extendedColors",
+      "name"
+  ],
+  "properties": {
+      "seed": {
+          "$id": "#/properties/seed",
+          "type": "string"
+      },
+      "description": {
+          "$id": "#/properties/description",
+          "type": "string"
+      },
+      "coreColors": {
+          "required": [
+              "primary"
+          ],
+          "properties": {
+              "primary": {
+                  "$id": "#/properties/coreColors/properties/primary",
+                  "type": "string"
+              }
+          },
+          "$id": "#/properties/coreColors",
+          "type": "object"
+      },
+      "schemes": {
+          "required": [
+              "light",
+              "dark"
+          ],
+          "properties": {
+              "light": {
+                  "required": [
+                      "primary",
+                      "onPrimary",
+                      "primaryContainer",
+                      "onPrimaryContainer",
+                      "primaryFixed",
+                      "onPrimaryFixed",
+                      "primaryFixedDim",
+                      "onPrimaryFixedVariant",
+                      "secondary",
+                      "onSecondary",
+                      "secondaryContainer",
+                      "onSecondaryContainer",
+                      "secondaryFixed",
+                      "onSecondaryFixed",
+                      "secondaryFixedDim",
+                      "onSecondaryFixedVariant",
+                      "tertiary",
+                      "onTertiary",
+                      "tertiaryContainer",
+                      "onTertiaryContainer",
+                      "tertiaryFixed",
+                      "onTertiaryFixed",
+                      "tertiaryFixedDim",
+                      "onTertiaryFixedVariant",
+                      "error",
+                      "onError",
+                      "errorContainer",
+                      "onErrorContainer",
+                      "outline",
+                      "background",
+                      "onBackground",
+                      "surface",
+                      "onSurface",
+                      "surfaceVariant",
+                      "onSurfaceVariant",
+                      "inverseSurface",
+                      "inverseOnSurface",
+                      "inversePrimary",
+                      "shadow",
+                      "surfaceTint",
+                      "outlineVariant",
+                      "scrim",
+                      "surfaceContainerHighest",
+                      "surfaceContainerHigh",
+                      "surfaceContainer",
+                      "surfaceContainerLow",
+                      "surfaceContainerLowest",
+                      "surfaceBright",
+                      "surfaceDim"
+                  ],
+                  "properties": {
+                      "primary": {
+                          "$id": "#/properties/schemes/properties/light/properties/primary",
+                          "type": "string"
+                      },
+                      "onPrimary": {
+                          "$id": "#/properties/schemes/properties/light/properties/onPrimary",
+                          "type": "string"
+                      },
+                      "primaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/primaryContainer",
+                          "type": "string"
+                      },
+                      "onPrimaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/onPrimaryContainer",
+                          "type": "string"
+                      },
+                      "primaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/primaryFixed",
+                          "type": "string"
+                      },
+                      "onPrimaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/onPrimaryFixed",
+                          "type": "string"
+                      },
+                      "primaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/light/properties/primaryFixedDim",
+                          "type": "string"
+                      },
+                      "onPrimaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/onPrimaryFixedVariant",
+                          "type": "string"
+                      },
+                      "secondary": {
+                          "$id": "#/properties/schemes/properties/light/properties/secondary",
+                          "type": "string"
+                      },
+                      "onSecondary": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSecondary",
+                          "type": "string"
+                      },
+                      "secondaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/secondaryContainer",
+                          "type": "string"
+                      },
+                      "onSecondaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSecondaryContainer",
+                          "type": "string"
+                      },
+                      "secondaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/secondaryFixed",
+                          "type": "string"
+                      },
+                      "onSecondaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSecondaryFixed",
+                          "type": "string"
+                      },
+                      "secondaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/light/properties/secondaryFixedDim",
+                          "type": "string"
+                      },
+                      "onSecondaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSecondaryFixedVariant",
+                          "type": "string"
+                      },
+                      "tertiary": {
+                          "$id": "#/properties/schemes/properties/light/properties/tertiary",
+                          "type": "string"
+                      },
+                      "onTertiary": {
+                          "$id": "#/properties/schemes/properties/light/properties/onTertiary",
+                          "type": "string"
+                      },
+                      "tertiaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/tertiaryContainer",
+                          "type": "string"
+                      },
+                      "onTertiaryContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/onTertiaryContainer",
+                          "type": "string"
+                      },
+                      "tertiaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/tertiaryFixed",
+                          "type": "string"
+                      },
+                      "onTertiaryFixed": {
+                          "$id": "#/properties/schemes/properties/light/properties/onTertiaryFixed",
+                          "type": "string"
+                      },
+                      "tertiaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/light/properties/tertiaryFixedDim",
+                          "type": "string"
+                      },
+                      "onTertiaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/onTertiaryFixedVariant",
+                          "type": "string"
+                      },
+                      "error": {
+                          "$id": "#/properties/schemes/properties/light/properties/error",
+                          "type": "string"
+                      },
+                      "onError": {
+                          "$id": "#/properties/schemes/properties/light/properties/onError",
+                          "type": "string"
+                      },
+                      "errorContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/errorContainer",
+                          "type": "string"
+                      },
+                      "onErrorContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/onErrorContainer",
+                          "type": "string"
+                      },
+                      "outline": {
+                          "$id": "#/properties/schemes/properties/light/properties/outline",
+                          "type": "string"
+                      },
+                      "background": {
+                          "$id": "#/properties/schemes/properties/light/properties/background",
+                          "type": "string"
+                      },
+                      "onBackground": {
+                          "$id": "#/properties/schemes/properties/light/properties/onBackground",
+                          "type": "string"
+                      },
+                      "surface": {
+                          "$id": "#/properties/schemes/properties/light/properties/surface",
+                          "type": "string"
+                      },
+                      "onSurface": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSurface",
+                          "type": "string"
+                      },
+                      "surfaceVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceVariant",
+                          "type": "string"
+                      },
+                      "onSurfaceVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/onSurfaceVariant",
+                          "type": "string"
+                      },
+                      "inverseSurface": {
+                          "$id": "#/properties/schemes/properties/light/properties/inverseSurface",
+                          "type": "string"
+                      },
+                      "inverseOnSurface": {
+                          "$id": "#/properties/schemes/properties/light/properties/inverseOnSurface",
+                          "type": "string"
+                      },
+                      "inversePrimary": {
+                          "$id": "#/properties/schemes/properties/light/properties/inversePrimary",
+                          "type": "string"
+                      },
+                      "shadow": {
+                          "$id": "#/properties/schemes/properties/light/properties/shadow",
+                          "type": "string"
+                      },
+                      "surfaceTint": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceTint",
+                          "type": "string"
+                      },
+                      "outlineVariant": {
+                          "$id": "#/properties/schemes/properties/light/properties/outlineVariant",
+                          "type": "string"
+                      },
+                      "scrim": {
+                          "$id": "#/properties/schemes/properties/light/properties/scrim",
+                          "type": "string"
+                      },
+                      "surfaceContainerHighest": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceContainerHighest",
+                          "type": "string"
+                      },
+                      "surfaceContainerHigh": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceContainerHigh",
+                          "type": "string"
+                      },
+                      "surfaceContainer": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceContainer",
+                          "type": "string"
+                      },
+                      "surfaceContainerLow": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceContainerLow",
+                          "type": "string"
+                      },
+                      "surfaceContainerLowest": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceContainerLowest",
+                          "type": "string"
+                      },
+                      "surfaceBright": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceBright",
+                          "type": "string"
+                      },
+                      "surfaceDim": {
+                          "$id": "#/properties/schemes/properties/light/properties/surfaceDim",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/schemes/properties/light",
+                  "type": "object"
+              },
+              "dark": {
+                  "required": [
+                      "primary",
+                      "onPrimary",
+                      "primaryContainer",
+                      "onPrimaryContainer",
+                      "primaryFixed",
+                      "onPrimaryFixed",
+                      "primaryFixedDim",
+                      "onPrimaryFixedVariant",
+                      "secondary",
+                      "onSecondary",
+                      "secondaryContainer",
+                      "onSecondaryContainer",
+                      "secondaryFixed",
+                      "onSecondaryFixed",
+                      "secondaryFixedDim",
+                      "onSecondaryFixedVariant",
+                      "tertiary",
+                      "onTertiary",
+                      "tertiaryContainer",
+                      "onTertiaryContainer",
+                      "tertiaryFixed",
+                      "onTertiaryFixed",
+                      "tertiaryFixedDim",
+                      "onTertiaryFixedVariant",
+                      "error",
+                      "onError",
+                      "errorContainer",
+                      "onErrorContainer",
+                      "outline",
+                      "background",
+                      "onBackground",
+                      "surface",
+                      "onSurface",
+                      "surfaceVariant",
+                      "onSurfaceVariant",
+                      "inverseSurface",
+                      "inverseOnSurface",
+                      "inversePrimary",
+                      "shadow",
+                      "surfaceTint",
+                      "outlineVariant",
+                      "scrim",
+                      "surfaceContainerHighest",
+                      "surfaceContainerHigh",
+                      "surfaceContainer",
+                      "surfaceContainerLow",
+                      "surfaceContainerLowest",
+                      "surfaceBright",
+                      "surfaceDim"
+                  ],
+                  "properties": {
+                      "primary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/primary",
+                          "type": "string"
+                      },
+                      "onPrimary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onPrimary",
+                          "type": "string"
+                      },
+                      "primaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/primaryContainer",
+                          "type": "string"
+                      },
+                      "onPrimaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onPrimaryContainer",
+                          "type": "string"
+                      },
+                      "primaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/primaryFixed",
+                          "type": "string"
+                      },
+                      "onPrimaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onPrimaryFixed",
+                          "type": "string"
+                      },
+                      "primaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/dark/properties/primaryFixedDim",
+                          "type": "string"
+                      },
+                      "onPrimaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onPrimaryFixedVariant",
+                          "type": "string"
+                      },
+                      "secondary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/secondary",
+                          "type": "string"
+                      },
+                      "onSecondary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSecondary",
+                          "type": "string"
+                      },
+                      "secondaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/secondaryContainer",
+                          "type": "string"
+                      },
+                      "onSecondaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSecondaryContainer",
+                          "type": "string"
+                      },
+                      "secondaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/secondaryFixed",
+                          "type": "string"
+                      },
+                      "onSecondaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSecondaryFixed",
+                          "type": "string"
+                      },
+                      "secondaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/dark/properties/secondaryFixedDim",
+                          "type": "string"
+                      },
+                      "onSecondaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSecondaryFixedVariant",
+                          "type": "string"
+                      },
+                      "tertiary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/tertiary",
+                          "type": "string"
+                      },
+                      "onTertiary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onTertiary",
+                          "type": "string"
+                      },
+                      "tertiaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/tertiaryContainer",
+                          "type": "string"
+                      },
+                      "onTertiaryContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onTertiaryContainer",
+                          "type": "string"
+                      },
+                      "tertiaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/tertiaryFixed",
+                          "type": "string"
+                      },
+                      "onTertiaryFixed": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onTertiaryFixed",
+                          "type": "string"
+                      },
+                      "tertiaryFixedDim": {
+                          "$id": "#/properties/schemes/properties/dark/properties/tertiaryFixedDim",
+                          "type": "string"
+                      },
+                      "onTertiaryFixedVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onTertiaryFixedVariant",
+                          "type": "string"
+                      },
+                      "error": {
+                          "$id": "#/properties/schemes/properties/dark/properties/error",
+                          "type": "string"
+                      },
+                      "onError": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onError",
+                          "type": "string"
+                      },
+                      "errorContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/errorContainer",
+                          "type": "string"
+                      },
+                      "onErrorContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onErrorContainer",
+                          "type": "string"
+                      },
+                      "outline": {
+                          "$id": "#/properties/schemes/properties/dark/properties/outline",
+                          "type": "string"
+                      },
+                      "background": {
+                          "$id": "#/properties/schemes/properties/dark/properties/background",
+                          "type": "string"
+                      },
+                      "onBackground": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onBackground",
+                          "type": "string"
+                      },
+                      "surface": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surface",
+                          "type": "string"
+                      },
+                      "onSurface": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSurface",
+                          "type": "string"
+                      },
+                      "surfaceVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceVariant",
+                          "type": "string"
+                      },
+                      "onSurfaceVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/onSurfaceVariant",
+                          "type": "string"
+                      },
+                      "inverseSurface": {
+                          "$id": "#/properties/schemes/properties/dark/properties/inverseSurface",
+                          "type": "string"
+                      },
+                      "inverseOnSurface": {
+                          "$id": "#/properties/schemes/properties/dark/properties/inverseOnSurface",
+                          "type": "string"
+                      },
+                      "inversePrimary": {
+                          "$id": "#/properties/schemes/properties/dark/properties/inversePrimary",
+                          "type": "string"
+                      },
+                      "shadow": {
+                          "$id": "#/properties/schemes/properties/dark/properties/shadow",
+                          "type": "string"
+                      },
+                      "surfaceTint": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceTint",
+                          "type": "string"
+                      },
+                      "outlineVariant": {
+                          "$id": "#/properties/schemes/properties/dark/properties/outlineVariant",
+                          "type": "string"
+                      },
+                      "scrim": {
+                          "$id": "#/properties/schemes/properties/dark/properties/scrim",
+                          "type": "string"
+                      },
+                      "surfaceContainerHighest": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceContainerHighest",
+                          "type": "string"
+                      },
+                      "surfaceContainerHigh": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceContainerHigh",
+                          "type": "string"
+                      },
+                      "surfaceContainer": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceContainer",
+                          "type": "string"
+                      },
+                      "surfaceContainerLow": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceContainerLow",
+                          "type": "string"
+                      },
+                      "surfaceContainerLowest": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceContainerLowest",
+                          "type": "string"
+                      },
+                      "surfaceBright": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceBright",
+                          "type": "string"
+                      },
+                      "surfaceDim": {
+                          "$id": "#/properties/schemes/properties/dark/properties/surfaceDim",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/schemes/properties/dark",
+                  "type": "object"
+              }
+          },
+          "$id": "#/properties/schemes",
+          "type": "object"
+      },
+      "palettes": {
+          "required": [
+              "primary",
+              "secondary",
+              "tertiary",
+              "error",
+              "neutral",
+              "neutralVariant"
+          ],
+          "properties": {
+              "primary": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/primary/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/primary/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/primary/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/primary/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/primary/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/primary/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/primary/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/primary/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/primary/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/primary/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/primary/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/primary/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/primary/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/primary/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/primary/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/primary/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/primary/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/primary",
+                  "type": "object"
+              },
+              "secondary": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/secondary/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/secondary",
+                  "type": "object"
+              },
+              "tertiary": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/tertiary/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/tertiary",
+                  "type": "object"
+              },
+              "error": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/error/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/error/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/error/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/error/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/error/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/error/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/error/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/error/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/error/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/error/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/error/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/error/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/error/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/error/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/error/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/error/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/error/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/error",
+                  "type": "object"
+              },
+              "neutral": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/neutral/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/neutral",
+                  "type": "object"
+              },
+              "neutralVariant": {
+                  "required": [
+                      "0",
+                      "5",
+                      "10",
+                      "20",
+                      "25",
+                      "30",
+                      "35",
+                      "40",
+                      "50",
+                      "60",
+                      "70",
+                      "80",
+                      "90",
+                      "95",
+                      "98",
+                      "99",
+                      "100"
+                  ],
+                  "properties": {
+                      "0": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/0",
+                          "type": "string"
+                      },
+                      "5": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/5",
+                          "type": "string"
+                      },
+                      "10": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/10",
+                          "type": "string"
+                      },
+                      "20": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/20",
+                          "type": "string"
+                      },
+                      "25": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/25",
+                          "type": "string"
+                      },
+                      "30": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/30",
+                          "type": "string"
+                      },
+                      "35": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/35",
+                          "type": "string"
+                      },
+                      "40": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/40",
+                          "type": "string"
+                      },
+                      "50": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/50",
+                          "type": "string"
+                      },
+                      "60": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/60",
+                          "type": "string"
+                      },
+                      "70": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/70",
+                          "type": "string"
+                      },
+                      "80": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/80",
+                          "type": "string"
+                      },
+                      "90": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/90",
+                          "type": "string"
+                      },
+                      "95": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/95",
+                          "type": "string"
+                      },
+                      "98": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/98",
+                          "type": "string"
+                      },
+                      "99": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/99",
+                          "type": "string"
+                      },
+                      "100": {
+                          "$id": "#/properties/palettes/properties/neutralVariant/properties/100",
+                          "type": "string"
+                      }
+                  },
+                  "$id": "#/properties/palettes/properties/neutralVariant",
+                  "type": "object"
+              }
+          },
+          "$id": "#/properties/palettes",
+          "type": "object"
+      },
+      "styles": {
+          "required": [
+              "display",
+              "headline",
+              "body",
+              "label",
+              "title"
+          ],
+          "properties": {
+              "display": {
+                  "required": [
+                      "large",
+                      "medium",
+                      "small"
+                  ],
+                  "properties": {
+                      "large": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/display/properties/large/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/display/properties/large",
+                          "type": "object"
+                      },
+                      "medium": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/display/properties/medium/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/display/properties/medium",
+                          "type": "object"
+                      },
+                      "small": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/display/properties/small/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/display/properties/small",
+                          "type": "object"
+                      }
+                  },
+                  "$id": "#/properties/styles/properties/display",
+                  "type": "object"
+              },
+              "headline": {
+                  "required": [
+                      "large",
+                      "medium",
+                      "small"
+                  ],
+                  "properties": {
+                      "large": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/headline/properties/large/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/headline/properties/large",
+                          "type": "object"
+                      },
+                      "medium": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/headline/properties/medium/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/headline/properties/medium",
+                          "type": "object"
+                      },
+                      "small": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/headline/properties/small/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/headline/properties/small",
+                          "type": "object"
+                      }
+                  },
+                  "$id": "#/properties/styles/properties/headline",
+                  "type": "object"
+              },
+              "body": {
+                  "required": [
+                      "large",
+                      "medium",
+                      "small"
+                  ],
+                  "properties": {
+                      "large": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/body/properties/large/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/body/properties/large",
+                          "type": "object"
+                      },
+                      "medium": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/body/properties/medium/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/body/properties/medium",
+                          "type": "object"
+                      },
+                      "small": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/body/properties/small/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/body/properties/small",
+                          "type": "object"
+                      }
+                  },
+                  "$id": "#/properties/styles/properties/body",
+                  "type": "object"
+              },
+              "label": {
+                  "required": [
+                      "large",
+                      "medium",
+                      "small"
+                  ],
+                  "properties": {
+                      "large": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/label/properties/large/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/label/properties/large",
+                          "type": "object"
+                      },
+                      "medium": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/label/properties/medium/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/label/properties/medium",
+                          "type": "object"
+                      },
+                      "small": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/label/properties/small/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/label/properties/small",
+                          "type": "object"
+                      }
+                  },
+                  "$id": "#/properties/styles/properties/label",
+                  "type": "object"
+              },
+              "title": {
+                  "required": [
+                      "large",
+                      "medium",
+                      "small"
+                  ],
+                  "properties": {
+                      "large": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/title/properties/large/properties/letterSpacing",
+                                  "type": "integer"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/title/properties/large",
+                          "type": "object"
+                      },
+                      "medium": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/title/properties/medium/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/title/properties/medium",
+                          "type": "object"
+                      },
+                      "small": {
+                          "required": [
+                              "fontFamilyName",
+                              "fontFamilyStyle",
+                              "fontWeight",
+                              "fontSize",
+                              "lineHeight",
+                              "letterSpacing"
+                          ],
+                          "properties": {
+                              "fontFamilyName": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/fontFamilyName",
+                                  "type": "string"
+                              },
+                              "fontFamilyStyle": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/fontFamilyStyle",
+                                  "type": "string"
+                              },
+                              "fontWeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/fontWeight",
+                                  "type": "integer"
+                              },
+                              "fontSize": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/fontSize",
+                                  "type": "integer"
+                              },
+                              "lineHeight": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/lineHeight",
+                                  "type": "integer"
+                              },
+                              "letterSpacing": {
+                                  "$id": "#/properties/styles/properties/title/properties/small/properties/letterSpacing",
+                                  "type": "number"
+                              }
+                          },
+                          "$id": "#/properties/styles/properties/title/properties/small",
+                          "type": "object"
+                      }
+                  },
+                  "$id": "#/properties/styles/properties/title",
+                  "type": "object"
+              }
+          },
+          "$id": "#/properties/styles",
+          "type": "object"
+      },
+      "extendedColors": {
+          "$id": "#/properties/extendedColors",
+          "type": "array"
+      },
+      "name": {
+          "$id": "#/properties/name",
+          "type": "string"
+      }
+  },
+  "$id": "http://example.org/root.json#",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
