@@ -1,4 +1,4 @@
-export const themeFolderName = './theme'
+export const themeFolderName = './dist/theme'
 export const themeFileName = 'theme.scss'
 export const tokenFileName = 'tokens.scss'
 export const typhographyFileName = 'typhography.scss'
