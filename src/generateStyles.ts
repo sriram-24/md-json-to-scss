@@ -2,7 +2,7 @@ import { RootObject, Display, Styles, Large } from "./schema/Schema";
 import { splitCamelCaseWord } from "./splitCamelCasedWord";
 
 export const generateStyles = (theme : RootObject) : string => {
-    let testContent : string = '';
+    let testContent = '';
     Object.keys(theme.styles).forEach(
       (item) => {
         

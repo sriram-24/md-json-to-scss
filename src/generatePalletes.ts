@@ -4,9 +4,9 @@ import { RootObject } from "./schema/Schema";
 import { splitCamelCaseWord } from "./splitCamelCasedWord";
 
 export const generatePalletes = (theme : RootObject) : string => {
-    let palleteContent: string = '';
+    let palleteContent = '';
     Object.keys(theme.palettes).forEach(
-      (item : any) => {
+      (item) => {
         const casedword : string = splitCamelCaseWord(item);
         palleteContent+=`/* ${casedword} */\n`
         Object.keys(theme.palettes[item as keyof Palettes]).forEach(

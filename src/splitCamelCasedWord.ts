@@ -1,5 +1,5 @@
 export const splitCamelCaseWord = (word : string) : string => {
-  let newword : string = '';
+  let newword= '';
   word.split(/(?=[A-Z])/).map((s : string) => {
     if(newword==''){
       newword+=s.toLowerCase()

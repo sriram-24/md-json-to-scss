@@ -1,5 +1,5 @@
 export const generateThemeMixins = () =>{
-    let mixincontents = `
+    const mixincontents = `
     /*
      * Implementation of themes
      */

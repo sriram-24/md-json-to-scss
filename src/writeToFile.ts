@@ -4,7 +4,7 @@ import path from "path";
 function rimraf(dir_path : string) {
     if (existsSync(dir_path)) {
         readdirSync(dir_path).forEach(function(entry) {
-            var entry_path = path.join(dir_path, entry);
+            const entry_path = path.join(dir_path, entry);
             if (lstatSync(entry_path).isDirectory()) {
                 rimraf(entry_path);
             } else {

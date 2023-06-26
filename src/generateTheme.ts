@@ -3,7 +3,7 @@ import { RootObject } from "./schema/Schema";
 import { splitCamelCaseWord } from "./splitCamelCasedWord";
 
 const generateVariablesLight = (theme : RootObject) : string => {
-    let testContent : string = '';
+    let testContent = '';
     testContent+=``
     Object.keys(theme.schemes.light).forEach(
       (item) => {
@@ -17,7 +17,7 @@ const generateVariablesLight = (theme : RootObject) : string => {
 }
   
 const generateVariablesDark = (theme : RootObject) : string => {
-    let testContent :string = '';
+    let testContent = '';
     testContent+=``
     Object.keys(theme.schemes.dark).forEach(
       (item) => {
@@ -33,8 +33,8 @@ const generateVariablesDark = (theme : RootObject) : string => {
   
 export const generateTheme = (theme : RootObject) : string => {
     let testContent = '';
-    let variablesLight = generateVariablesLight(theme)
-    let variablesdark = generateVariablesDark(theme)
+    const variablesLight = generateVariablesLight(theme)
+    const variablesdark = generateVariablesDark(theme)
     testContent+=`@import "${tokenFileName}";\n@import "${themeMixinsFileName}";\n@import "${typhographyFileName}";\n$themes:(\n\tlight:(\n${variablesLight}\n),\n\tdark:(\n${variablesdark}\n)\n);`
     return testContent;
 }
