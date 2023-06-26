@@ -1,2 +1,5 @@
 dist
 node_modules
+examples/style.css
+examples/style.css.map
+.vscode

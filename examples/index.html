@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         /* The switch - the box around the slider */
 .switch {
@@ -74,17 +75,34 @@ input:checked + .slider:before {
 }
     </style>
 </head>
-<body>
+<body class="theme-light">
     <header>
         <div class="topbar">
             <div class="toggle">
                 <label>theme</label>
                 <label class="switch">
-                    <input type="checkbox">
+                    <input type="checkbox" id="checkbox" onchange="toggleDarkMode()">
                     <span class="slider round"></span>
                   </label>
             </div>
         </div>
     </header>
+
+    <div class="container">
+
+    </div>
+    <script>
+      function toggleDarkMode(){
+        let checkboxElement = document.getElementById('checkbox')
+        if(checkboxElement.checked){
+          document.body.classList.remove()
+          document.body.className = 'theme-dark'
+        }
+        else{
+          document.body.classList.remove()
+          document.body.className = 'theme-light'
+        }
+      }
+    </script>
 </body>
 </html>

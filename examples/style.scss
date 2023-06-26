@@ -1,0 +1,9 @@
+@import "../dist/theme/theme.scss";
+
+.container{
+    height: 300px;
+    width: 500px;
+    @include themify($themes){
+        background-color: themed(md-sys-color-on-surface);
+    }
+}
